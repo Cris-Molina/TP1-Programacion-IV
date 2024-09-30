@@ -1,0 +1,131 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo claro */
+}
+
+/* Estilo del encabezado */
+.header-inicio {
+    background-color: #ff69b4; /* Color de fondo rosa */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Estilo de la imagen en el encabezado */
+.header-inicio img {
+    width: 300px; /* Ancho ajustado para imagen rectangular */
+    height: auto; /* Mantiene proporción */
+    display: block;
+    margin: 0 auto; /* Centrar imagen */
+}
+
+/* Estilo del menú */
+.nav-inicio {
+    background-color: #333; /* Color de fondo oscuro */
+}
+
+.nav-inicio ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centra el menú horizontalmente */
+}
+
+.nav-inicio ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-inicio ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Destaca el texto del menú */
+}
+
+/* Estilo principal */
+.main-inicio {
+    padding: 20px;
+    background-color: white; /* Fondo blanco para el contenido */
+    margin: 20px auto;
+    max-width: 800px; /* Ancho máximo para centrar el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para el contenido */
+}
+
+/* Estilo de tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #ff69b4;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo de iframes */
+iframe {
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo del pie de página */
+.footer-inicio {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    display: block;
+    margin-top: 20px;
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff4081;
+}
+
+/* Estilo para la imagen del favicon */
+.logo {
+    width: 300px;
+    height: auto;
+}
